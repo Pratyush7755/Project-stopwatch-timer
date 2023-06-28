@@ -1,0 +1,39 @@
+.timer {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  #days, #hours, #minutes, #seconds {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    border-style: groove;
+    border-color: rgb(255, 0, 0);
+    border-radius: 25px;
+
+  }
+  
+  .smalltext {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+
+  }
+  h1{
+    font-size: 60px;
+  }
+  p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  body{
+    background-image: url(img3.jpg);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+  }
+  

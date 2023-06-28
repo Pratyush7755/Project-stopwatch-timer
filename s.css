@@ -1,0 +1,58 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(101, 101, 101);
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.digit {
+	font-size: 150px;
+	color: #000000;
+}
+
+.txt {
+	font-size: 30px;
+	color: #f6ff00;
+}
+
+#buttons {
+	margin-top: 50px;
+}
+
+.btn {
+	width: 100px;
+	padding: 10px 15px;
+	margin: 0px 20px;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.5s;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+
+#start {
+	background-color: #00ff2a;
+}
+
+#stop {
+	background-color: #ff0000;
+}
+
+#reset {
+	background-color: #e0f808;
+}
